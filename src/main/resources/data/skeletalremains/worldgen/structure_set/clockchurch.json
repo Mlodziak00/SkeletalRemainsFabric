@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "skeletalremains:clockchurch",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1574590173,
+
+    "spacing": 64,
+
+    "separation": 28,
+
+    "type": "minecraft:random_spread"
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " s ",
+        " s ",
+        "sGs"
+    ],
+    "key": {
+        "s": {
+            "item": "skeletalremains:enchanted_sand_shard"
+        },
+        "G": {
+            "item": "minecraft:golden_sword"
+        }
+    },
+    "result": {
+		"item": "skeletalremains:sand_bane",
+        "count": 1
+	}
+}

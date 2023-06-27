@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "skeletalremains",
+	"version": "${version}",
+	"name": "Skeletal Remains",
+		"description": "A mod that adds in different biome variants of Skeletons!",
+	"authors": [
+		"Lightglow"
+	],
+	"contact": {
+		"homepage": "https://discord.gg/e5cVJqXK"
+	},
+	"license": "MIT",
+	"icon": "assets/skeletalremains/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.lightglow.SkeletalRemains"
+		],
+		"client": [
+			"net.lightglow.client.SKClient"
+		],
+		"fabric-datagen": [
+          "net.lightglow.SkeletalRemainsDataGenerator"
+		]
+	},
+	"mixins": [
+		"skeletalremains.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.17",
+		"minecraft": ">=1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

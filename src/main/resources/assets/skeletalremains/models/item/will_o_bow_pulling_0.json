@@ -1,0 +1,6 @@
+{
+    "parent": "skeletalremains:item/will_o_bow",
+    "textures": {
+        "layer0": "skeletalremains:item/will_o_bow_pulling_0"
+    }
+}
